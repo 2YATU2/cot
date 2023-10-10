@@ -1,1 +1,37 @@
-
+.h1 {color: darkslateblue;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-weight: 100;}
+.h2 {color: cornflowerblue;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-weight: 100; }
+.cot {display: block;
+ margin: 0 auto 1.5%;
+ }
+.wrap {
+  width: 70%;
+  margin: 10px auto;
+  position: relative;
+}
+.cot {
+  position: absolute;
+  top: 150;
+  left: 50%;
+  margin-left: -125px; }
+.left {
+  float: left;
+  width: 20%; }
+.right {
+  float: right;
+  width: 140%;
+}
+.left:before, .right:before {
+  content: "";
+  width: 125px;
+  height: 345px;
+}
+.left:before {
+  float: right;
+}
+.right:before {
+  float: left;
+}
